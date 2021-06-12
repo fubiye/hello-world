@@ -1,6 +1,7 @@
 #include<stdio.h>
-
+#include "calc.h"
 int main(){
-    printf("Hello World");
+    int sumResult = sum(1,5);
+    printf("Hello World %d", sumResult);
     return 0;
 }
